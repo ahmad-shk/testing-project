@@ -66,10 +66,10 @@ export default function Header() {
                 <Phone size={14} />
                 <span>{t('call')}</span>
               </a>
-              <button onClick={() => setIsLanguageOpen(!isLanguageOpen)} className="flex items-center gap-1.5 hover:text-gray-700 transition" tabIndex={copy === 1 ? -1 : 0}>
+              {/* <button onClick={() => setIsLanguageOpen(!isLanguageOpen)} className="flex items-center gap-1.5 hover:text-gray-700 transition" tabIndex={copy === 1 ? -1 : 0}>
                 <Globe size={14} />
                 <span className="font-bold">{language.toUpperCase()}</span>
-              </button>
+              </button> */}
             </div>
           ))}
         </div>
