@@ -45,8 +45,8 @@ export default function SignupPage() {
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
             <span aria-hidden="true" className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-cyan-400 to-blue-500 text-lg font-black text-white">A</span>
             <span className="text-2xl font-bold">
-              <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">AUDVETAX</span>
-              <span className="ml-1 text-gray-900">SYSTEMS</span>
+              <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">AUDVERTAX</span>
+              {/* <span className="ml-1 text-gray-900">SYSTEMS</span> */}
             </span>
           </Link>
         </div>
